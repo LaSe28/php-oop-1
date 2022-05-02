@@ -42,6 +42,7 @@ echo $avatar->getAuthor() . '.';
 echo ' uscito nel ';
 echo $avatar->getYear();
 echo $avatar->getRating();
+echo ("\n");
 
 
 $transformers = new Movies('transformers', 'Michael Bay');
